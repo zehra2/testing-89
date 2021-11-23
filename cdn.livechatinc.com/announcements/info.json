@@ -1,0 +1,26 @@
+{
+  "accounts": {
+    "show": false,
+    "content": "Maintenance break. The website and chat might not work properly. <a target='_blank' href='https://status.livechat.com/'><strong>Read more ›</strong></a>",
+    "type": "issue",
+    "priority": "high"
+  },
+  "website-livechat": {
+    "show": false,
+    "content": "Maintenance break. The website and chat might not work properly. <a target='_blank' href='https://status.livechat.com/'><strong>Read more ›</strong></a>",
+    "type": "issue",
+    "priority": "high"
+  },
+  "website-knowledgebase": {
+    "show": false,
+    "content": "Maintenance break. The website and chat might not work properly. <a target='_blank' href='https://status.livechat.com/'><strong>Read more ›</strong></a>",
+    "type": "issue",
+    "priority": "high"
+  },
+  "website-helpdesk": {
+    "show": false,
+    "content": "Maintenance break. The website and app might not work properly. <a target='_blank' href='https://status.helpdesk.com'><strong>Read more ›</strong></a>",
+    "type": "issue",
+    "priority": "high"
+  }
+}

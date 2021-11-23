@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UTM Builder by LiveChat</title>
+    <meta name="description" content="UTM Builder creates urls that let you see Facebook and Google Ads campaigns performance data in Google Analytics. You can also analyze traffic coming from referral and SEO backlinks.">
+
+
+    <link rel="canonical" href="https://www.livechat.com/utm-builder/">
+
+
+    <link rel="alternate" hreflang="en" href="https://www.livechat.com/utm-builder/" />
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "brand": "LiveChat",
+                "name": "LiveChat Software",
+                "sameAs": ["https://www.facebook.com/livechat", "https://www.instagram.com/livechat/", "https://www.linkedin.com/company/livechat/", "https://www.pinterest.com/livechat/", "https://twitter.com/livechat", "https://en.wikipedia.org/wiki/Livechat_Software", "https://www.youtube.com/livechat"],
+                "url": "https://www.livechat.com/"
+            }]
+        }
+    </script>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="UTM Builder by LiveChat" />
+    <meta property="og:description" content="UTM Builder creates urls that let you see Facebook and Google Ads campaigns performance data in Google Analytics. You can also analyze traffic coming from referral and SEO backlinks." />
+    <meta property="og:url" content="https://www.livechat.com/utm-builder/" />
+    <meta property="og:site_name" content="LiveChat" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="UTM Builder creates urls that let you see Facebook and Google Ads campaigns performance data in Google Analytics. You can also analyze traffic coming from referral and SEO backlinks." />
+    <meta name="twitter:title" content="UTM Builder by LiveChat" />
+    <meta name="twitter:site" content="@LiveChat" />
+
+
+    <meta property="og:image" content="https://www.livechat.com/utm-builder/og-utm-builder.22a35eee3426588e3460e860061d5acb122ade4727274d2ff3e01a142c593ed8.png" />
+    <meta name="twitter:image" content="https://www.livechat.com/utm-builder/og-utm-builder.22a35eee3426588e3460e860061d5acb122ade4727274d2ff3e01a142c593ed8.png" />
+
+    <script>
+        window.scrollOffsetFunction = function() {
+            var navElements = document.getElementsByClassName("c-navbar");
+            if (typeof navElements[0] !== "undefined") {
+                var navRect = navElements[0].getBoundingClientRect();
+                var navStyle = getComputedStyle(navElements[0]);
+                if (navStyle.position === "sticky" || navStyle.position === "fixed") {
+                    return navRect.bottom - navRect.top + 30;
+                }
+            }
+            return 0;
+        }
+    </script>
+
+
+
+    <script>
+        if (typeof window.__PRERENDER_INJECTED === "undefined") {
+
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M6FDC2X');
+
+        }
+    </script>
+
+
+
+
+
+    <link rel="preload" as="style" href="main.0c27991a92307c4f9462a5a882c2e6405217e4c708bac89943e20f76f3d5845e.css">
+    <link rel="stylesheet" href="main.0c27991a92307c4f9462a5a882c2e6405217e4c708bac89943e20f76f3d5845e.css">
+
+
+
+
+</head>
+
+<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6FDC2X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+    <div class="u-py-xs u-bg-accent c-announcement u-hidden" data-controller="announcement" data-namespace="website-livechat">
+        <div class="o-container u-relative">
+
+            <div class="o-decor"><img src="/images/announcements-decor-1.9859c5dd1ae3b0d4d119e49e6f194dbd751021d878391343185635e84da7982f.svg" class="u-hidden lg:u-block o-decor__item" width="443" height="203" loading="lazy" style="max-width: 443px; top: -75px; left: -100px;">
+                <img
+                    src="/images/announcements-decor-2.431d3b5b583b3a51841894f125900ffdc25963abdc8bc168b613bd7710559a36.svg" class="u-hidden lg:u-block o-decor__item" width="340" height="327" loading="lazy" style="max-width: 340px; top: -140px; right: -160px;">
+            </div>
+
+            <p class="u-text-p9 u-text-black u-maxw-6 u-flex u-items-center u-justify-center u-mx-auto u-mb-0 u-relative">
+                <svg class="u-basis-1 sm:u-basis-auto" width="21" height="21" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 2l2.3 2.4c.2.2.3.4.3.7v3c0 .5-.5 1-1 1H5a1 1 0 01-.7-.3L2 6.5a5 5 0 007 5.2 1 1 0 011.2.2l6 6a1.1 1.1 0 001.6-1.6l-6-6a1 1 0 01-.2-1.1A5 5 0 006.5 2zM4.2.8a7 7 0 019.6 8.7l5.5 5.5a3.1 3.1 0 11-4.4 4.4l-5.5-5.5A7 7 0 01.7 4.2a1 1 0 011.6-.3L5.5 7h1.6V5.5L3.9 2.3A1 1 0 014.2.7z" fill="#1B1B20"/></svg>
+                <span class="u-ml-xs u-basis-11 sm:u-basis-auto" data-target="announcement.message"></span>
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <aside class="u-border-b u-border-gray-900 c-productbar">
+        <div class="u-flex u-justify-center">
+            <p class="u-text-p9 u-text-gray-500 u-my-sm u-Mr-xs">See our other products:</p>
+            <a href="https://www.chatbot.com/?utm_source=livechat.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" rel="noopener" class="c-productbar__chatbot u-flex u-flex-row u-items-center u-hover-none u-Mr-xs" data-controller="track" data-track-category="Proudct Bar"
+                data-track-action="Clicked on ChatBot" data-action="click->track#send">
+      <svg width="16" height="16" fill="none" style="margin-right: 3px;"  xmlns="http://www.w3.org/2000/svg"><path d="M11.8 6.3v1.5a.6.6 0 01-.3.6c-1.1.5-2.3.8-3.5.8-1.2 0-2.4-.3-3.5-.8a.6.6 0 01-.3-.6V6.3a.4.4 0 01.6-.4c1 .4 2 .7 3.2.7 1 0 2.2-.3 3.2-.7a.4.4 0 01.6.4z" fill="#C6C6CA"/><path d="M15.9 10a3.8 3.8 0 01-3.8 3.4H10L6 16v-2.6l4-2.6H12a1.2 1.2 0 001.2-1v-6a1.1 1.1 0 00-1-1 69.4 69.4 0 00-8.5 0 1.1 1.1 0 00-1 1c-.2 2-.2 4-.1 6a1.2 1.2 0 001.2 1h2v2.6H4A3.8 3.8 0 010 9.9a48 48 0 010-6.4A3.7 3.7 0 013.6.2a62.5 62.5 0 018.8 0A3.7 3.7 0 0116 3.6a48 48 0 010 6.3z" fill="#C6C6CA"/></svg>
+      <p class="u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">ChatBot</span> - Automate customer service with AI</p>
+    </a>
+            <a href="https://www.helpdesk.com/?utm_source=livechat.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" rel="noopener" class="c-productbar__helpdesk u-flex u-flex-row u-items-center u-hover-none u-Mr-xs" data-controller="track"
+                data-track-category="Proudct Bar" data-track-action="Clicked on HelpDesk" data-action="click->track#send">
+      <svg width="17" height="14" fill="none" style="margin-right: 3px;"  xmlns="http://www.w3.org/2000/svg"><path d="M8 6.1l4.1-3.5h-4l-4.3.1a1.1 1.1 0 00-1 1l-.2 3v.6l.1 3a1.1 1.1 0 001 1h8.6a1.1 1.1 0 001-1l.1-2.8L16 5.2v5.3a3.7 3.7 0 01-3.5 3.3 59.5 59.5 0 01-9 0 3.7 3.7 0 01-3.4-3.4L0 7.3v-.6l.1-3.1A3.7 3.7 0 013.6.2L8 0h8v2.6l-8 7-3.7-3.3 2-1.7L8 6.1z" fill="#C6C6CA"/></svg>
+      <p class="u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">HelpDesk</span> - Support customers with tickets</p>
+    </a>
+            <a href="https://www.knowledgebase.ai/?utm_source=livechat.com&amp;utm_medium=referral&amp;utm_campaign=productbar" target="_blank" rel="noopener" class="c-productbar__knowledgebase u-flex u-flex-row u-items-center u-hover-none" data-controller="track"
+                data-track-category="Proudct Bar" data-track-action="Clicked on KnowledgeBase" data-action="click->track#send">
+       <svg width="16" height="14" style="margin-right: 3px;" xmlns="http://www.w3.org/2000/svg"><path d="M13.4 2.7V0h-.1C11 0 9.2 1.5 8 2.7H8C6.7 1.5 5 0 2.6 0h-.1v2.7H0v4.6l.1 3.1a3.7 3.7 0 003.5 3.4 62.6 62.6 0 008.8 0 3.7 3.7 0 003.5-3.4l.1-3.1V2.7h-2.6zm0 4.6l-.1 3a1.1 1.1 0 01-1 1H3.7a1.1 1.1 0 01-1-1c-.2-.9-.2-2-.2-3V2.7c1.9 0 3.8 2 4.3 2.9L8 7l1-1.5c.6-.8 2.5-2.8 4.4-3v4.7z" fill="#C6C6CA"/></svg>
+      <p class="u-text-p9 u-mb-0 u-text-gray-700"><span class="c-productbar__name u-text-gray-700">KnowledgeBase</span> - Guide and educate customers</p>
+    </a>
+        </div>
+        </div>
+    </aside>
+
+
+    <div class="c-navbar  u-border-b u-border-gray-900" data-controller="show logged-in">
+        <div class="c-navbar__content">
+            <a href="/" class="c-navbar__logo"><img src="/livechat-logo.svg" alt="LiveChat logo" width="148" height="33"></a>
+
+
+            <button class="c-navbar__button" aria-expanded="false" data-action="show#toggle">
+        <span data-target="show.content">Menu</span>
+        <span hidden data-target="show.content">Close</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="20" class="u-ml-xs">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M1 3.5h15" class="c-navbar__button__bar" />
+            <path d="M1 8h15" class="c-navbar__button__bar" />
+            <path d="M1 12.5h15" class="c-navbar__button__bar" />
+          </g>
+        </svg>
+      </button>
+
+
+            <nav class="c-menu lg:u-ml-2xl " data-controller="menu" data-target="show.content" hidden>
+                <ul>
+                    <li data-target="menu.root">
+                        <button class="c-menu__item v--top" data-target="menu.top">Product<span class="c-menu__arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.6666 6L7.99992 10.6667L3.33325 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></button>
+                        <div class="c-menu__sub">
+                            <div class="c-menu__split">
+                                <div>
+                                    <ul>
+                                        <li><a href="/tour/" class="c-menu__item">Product Tour<br><small>Feel the LiveChat experience</small></a></li>
+                                        <li><a href="/features/" class="c-menu__item">Features<br><small>Everything you need</small></a></li>
+                                        <li><a href="/features/channels/" class="c-menu__item">Channels<br><small>Be where your customers are</small></a></li>
+                                        <li data-target="logged-in.hide"><a href="/marketplace/" class="c-menu__item">Integrations<br><small>Connect with 200+ tools</small></a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="c-menu__header">Solutions</p>
+                                    <ul>
+                                        <li><a href="/solutions/customer-support/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.1 17.8a14 14 0 0113.8 0M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Customer Support</a></li>
+                                        <li><a href="/solutions/sales-and-marketing/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h2l.4 2m0 0H21l-4 8H7M5.4 5L7 13m0 0l-2.3 2.3a1 1 0 00.7 1.7H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sales & Marketing</a></li>
+                                        <li><a href="/enterprise/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11h2a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v3M8 4v1.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 004 0 2 2 0 012-2h1m-5 12.5V18a2 2 0 012-2h3m1-4a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Enterprise</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a href="/app/" class="c-menu__foot-action v--only-desktop">
+              Get LiveChat App<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 7.99992H2M9.33333 3.33325L14 7.99992L9.33333 3.33325ZM14 7.99992L9.33333 12.6666L14 7.99992Z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+            </a>
+                        </div>
+                    </li>
+                    <li data-target="menu.root">
+                        <a class="c-menu__item v--top" href="/pricing/" data-target="menu.top">Pricing</a>
+                    </li>
+                    <li data-target="menu.root logged-in.show">
+                        <a class="c-menu__item v--top" href="/marketplace/" data-target="menu.top">Marketplace</a>
+                    </li>
+                    <li data-target="menu.root logged-in.show">
+                        <a class="c-menu__item v--top" href="/help/" data-target="menu.top">Help Center</a>
+                    </li>
+                    <li data-target="menu.root logged-in.hide">
+                        <button class="c-menu__item v--top" data-target="menu.top">Customers<span class="c-menu__arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.6666 6L7.99992 10.6667L3.33325 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></button>
+                        <div class="c-menu__sub">
+                            <div class="c-menu__split">
+                                <div>
+                                    <ul>
+                                        <li><a href="/customers/" class="c-menu__item">Our Customers<br><small>Join 33,000+ companies</small></a></li>
+                                        <li><a href="/customers/customer-stories/" class="c-menu__item">Case Studies<br><small>How others grow with LiveChat</small></a></li>
+                                        <li><a href="/customers/live-chat-reviews/" class="c-menu__item v--no-border">Reviews<br><small>What they say about us</small></a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="c-menu__header">Industries</p>
+                                    <ul>
+                                        <li><a href="/solutions/livechat-for-ecommerce/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 11V7a4 4 0 10-8 0v4M5 9h14l1 12H4L5 9z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Ecommerce</a></li>
+                                        <li><a href="/solutions/livechat-software-it/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Software & IT</a></li>
+                                        <li><a href="/solutions/livechat-for-education/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 20v-7.5l4-2.2m0 3.7l9-5-9-5-9 5 9 5zm0 0l6.2-3.4c.8 2 1 4.3.6 6.5a12 12 0 00-6.8 3 12 12 0 00-6.8-3 12 12 0 01.6-6.5L12 14z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Education</a></li>
+                                        <li><a href="/solutions/livechat-for-finance/" class="c-menu__item v--m-button"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 21h16M4 10h16M20 10V7l-8-4-8 4v3M7 10v11M17 10v11M12 10v11" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Finance</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="v--only-mobile">
+                        <a href="/app/" class="c-menu__item v--top">
+            App
+          </a>
+                    </li>
+                    <li data-target="menu.root">
+                        <button class="c-menu__item v--top" data-target="menu.top">Resources<span class="c-menu__arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.6666 6L7.99992 10.6667L3.33325 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</span></button>
+                        <div class="c-menu__sub">
+                            <div class="c-menu__split">
+                                <div>
+                                    <ul>
+                                        <li data-target="logged-in.hide"><a href="/help/" class="c-menu__item"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16a4 4 0 100-8 4 4 0 000 8z" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 21a9 9 0 100-18 9 9 0 000 18zM15 15l3.4 3.4M9 15l-3.4 3.4M5.6 5.6L9 9M18.4 5.6L15 9" stroke="#1B1B20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Help Center</a></li>
+                                        <li class="v--only-mobile"><a href="/success/" class="c-menu__item" target="_blank"><span class="c-menu__icon v--mobile"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2.7C0 1.2 1.2 0 2.7 0h18.6C22.8 0 24 1.2 24 2.7v18.6c0 1.5-1.2 2.7-2.7 2.7H2.7A2.7 2.7 0 010 21.3V2.7z" fill="#FFD000"/><path d="M7 12.6v-.2h2.6v.2c0 .9.8 1.5 2.1 1.5s2.1-.5 2.1-1.4c0-.5-.2-.8-.9-1L9.7 11c-1.6-.4-2.5-1.2-2.5-2.8C7.2 6 9 4.7 11.6 4.7c2.6 0 4.3 1.3 4.3 3.5v.1h-2.5v-.2c0-.8-.5-1.4-1.8-1.4-1.1 0-1.8.5-1.8 1.2 0 .6.3.8.8 1l3.3.8c1.6.4 2.5 1.3 2.5 2.8 0 2-2 3.6-4.7 3.6S7 14.9 7 12.6z" fill="#1B1B20"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6 8.9c-.5-.2-.8-.4-.8-1 0-.7.7-1.2 1.8-1.2 1.3 0 1.8.6 1.8 1.4v.2h2.5v-.1V8c-.1-2-1.8-3.3-4.3-3.3C9 4.7 7.2 6 7.2 8.2c0 1.6.9 2.4 2.5 2.8l3.2.8c.7.1 1 .4 1 1 0 .8-1 1.3-2.2 1.3-1.3 0-2.1-.6-2.1-1.5v-.2H7V12.7c.1 2.3 2 3.4 4.7 3.4s4.7-1.5 4.7-3.6c0-1.5-.9-2.4-2.5-2.8l-3.3-.8zm1 6.9c2.7 0 4.4-1.5 4.4-3.3 0-.7-.2-1.2-.5-1.6-.3-.4-.9-.7-1.6-.9l-3.4-.8c-.3 0-.6-.2-.8-.4-.2-.2-.3-.5-.3-.9 0-.5.3-.9.7-1.1.4-.3.9-.4 1.5-.4.7 0 1.2.1 1.6.5.3.3.5.7.5 1h1.9c0-.8-.5-1.5-1-2-.8-.5-1.8-.9-3-.9s-2.2.3-3 .9c-.6.5-1 1.3-1 2.3 0 .7.1 1.3.5 1.6a3.2 3.2 0 001.7.9l3.2.7c.4.1.7.3.9.5.2.2.3.5.3.8 0 .6-.3 1-.8 1.3-.4.3-1 .4-1.7.4s-1.3-.1-1.7-.5c-.5-.2-.7-.7-.8-1.2H7.4c0 1 .5 1.7 1.1 2.2.8.6 1.9.8 3.2.9zM5.6 19.7l-.1-1-.1-1h.2A151.5 151.5 0 0111 17h7v2.1h-7a40.2 40.2 0 00-5.2.5h-.1z" fill="#1B1B20"/></svg></span>Success by LiveChat<br><small>More than a business blog!</small></a></li>
+                                        <li><a href="/community/" class="c-menu__item"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 10h0zm4 0h0zm4 0h0zm-7 6H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Community</a></li>
+                                        <li><a href="/updates/" class="c-menu__item"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 5.9v13.3a1.8 1.8 0 01-3.4.6l-2.2-6.1m0 0A4 4 0 017 6h1.8C13 6 16.5 4.8 18 3v14c-1.5-1.8-5-3-9.2-3H7a4 4 0 01-1.6-.3zM18 13a3 3 0 000-6v6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Product Updates</a></li>
+                                        <li class="v--only-desktop"><a href="/marketplace/experts/" class="c-menu__item"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 20h5v-2a3 3 0 00-5.4-1.9M17 20l-.4-3.9M17 20H7m10 0v-2a5 5 0 00-.4-1.9m0 0a5 5 0 00-9.2 0M7 20H2v-2a3 3 0 015.4-1.9M7 20l.4-3.9M7 20v-2c0-.7.1-1.3.4-1.9M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Experts Marketplace</a></li>
+                                        <li><a href="https://developers.livechat.com" class="c-menu__item" target="_blank" rel="noopener"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>API & Developers</a></li>
+                                        <li><a href="https://partners.livechat.com?utm_source=livechat.com&utm_medium=referral&utm_content=top_navigation" class="c-menu__item v--no-border" target="_blank" rel="noopener"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 012 0l1.5 4.6a1 1 0 001 .7h4.8A1 1 0 0121 10L17 13a1 1 0 00-.3 1.1l1.5 4.7a1 1 0 01-1.5 1.1l-4-2.9a1 1 0 00-1.2 0l-4 2.9A1 1 0 016 18.8L7.4 14a1 1 0 00-.3-1.1L3 10a1 1 0 01.6-1.8h4.9a1 1 0 001-.7L11 2.9v0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Partner Program</a></li>
+                                        <li class="v--only-desktop"><a href="https://status.livechat.com" class="c-menu__item" target="_blank" rel="noopener"><span class="c-menu__icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>System Status</a></li>
+                                    </ul>
+                                </div>
+                                <div class="v--only-desktop">
+                                    <p class="c-menu__header">Learn</p>
+                                    <ul>
+                                        <li><a href="/success/" class="c-menu__item" target="_blank"><span class="c-menu__icon u--mr-xs"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 2.7C0 1.2 1.2 0 2.7 0h18.6C22.8 0 24 1.2 24 2.7v18.6c0 1.5-1.2 2.7-2.7 2.7H2.7A2.7 2.7 0 010 21.3V2.7z" fill="#FFD000"/><path d="M7 12.6v-.2h2.6v.2c0 .9.8 1.5 2.1 1.5s2.1-.5 2.1-1.4c0-.5-.2-.8-.9-1L9.7 11c-1.6-.4-2.5-1.2-2.5-2.8C7.2 6 9 4.7 11.6 4.7c2.6 0 4.3 1.3 4.3 3.5v.1h-2.5v-.2c0-.8-.5-1.4-1.8-1.4-1.1 0-1.8.5-1.8 1.2 0 .6.3.8.8 1l3.3.8c1.6.4 2.5 1.3 2.5 2.8 0 2-2 3.6-4.7 3.6S7 14.9 7 12.6z" fill="#1B1B20"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6 8.9c-.5-.2-.8-.4-.8-1 0-.7.7-1.2 1.8-1.2 1.3 0 1.8.6 1.8 1.4v.2h2.5v-.1V8c-.1-2-1.8-3.3-4.3-3.3C9 4.7 7.2 6 7.2 8.2c0 1.6.9 2.4 2.5 2.8l3.2.8c.7.1 1 .4 1 1 0 .8-1 1.3-2.2 1.3-1.3 0-2.1-.6-2.1-1.5v-.2H7V12.7c.1 2.3 2 3.4 4.7 3.4s4.7-1.5 4.7-3.6c0-1.5-.9-2.4-2.5-2.8l-3.3-.8zm1 6.9c2.7 0 4.4-1.5 4.4-3.3 0-.7-.2-1.2-.5-1.6-.3-.4-.9-.7-1.6-.9l-3.4-.8c-.3 0-.6-.2-.8-.4-.2-.2-.3-.5-.3-.9 0-.5.3-.9.7-1.1.4-.3.9-.4 1.5-.4.7 0 1.2.1 1.6.5.3.3.5.7.5 1h1.9c0-.8-.5-1.5-1-2-.8-.5-1.8-.9-3-.9s-2.2.3-3 .9c-.6.5-1 1.3-1 2.3 0 .7.1 1.3.5 1.6a3.2 3.2 0 001.7.9l3.2.7c.4.1.7.3.9.5.2.2.3.5.3.8 0 .6-.3 1-.8 1.3-.4.3-1 .4-1.7.4s-1.3-.1-1.7-.5c-.5-.2-.7-.7-.8-1.2H7.4c0 1 .5 1.7 1.1 2.2.8.6 1.9.8 3.2.9zM5.6 19.7l-.1-1-.1-1h.2A151.5 151.5 0 0111 17h7v2.1h-7a40.2 40.2 0 00-5.2.5h-.1z" fill="#1B1B20"/></svg></span>Success by LiveChat<br><small>More than a business blog!</small></a></li>
+                                        <li><a href="/customer-service-report/" class="c-menu__item">Customer Service Report<br><small>Discover the latest data</small></a></li>
+                                        <li><a href="/benchmark/" class="c-menu__item">Local Benchmark<br><small>Compare your results</small></a></li>
+                                        <li><a href="/webinars/" class="c-menu__item">Webinars<br><small>LiveChat workshops</small></a></li>
+                                        <li><a href="/privacy-policy-generator/" class="c-menu__item">Privacy Policy Generator<br><small>Become GDPR compliant</small></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="v--only-mobile u-p-lg u-mt-auto u-mb-0">
+                    <form action="https://accounts.livechat.com/signup" method="GET" data-controller="signup" data-action="signup#submit" class="o-input-group u-mb-lg">
+                        <input type="email" name="email" class="" style="border-color: #767680;" data-target="signup.email" placeholder="Enter your email" aria-label="Business Email" required>
+                        <input type="hidden" name="source_id" value="header_cta">
+                        <input type="hidden" name="source_url" value="https://www.livechat.com/utm-builder/">
+                        <input type="hidden" name="source_type" value="website">
+                        <div class="o-input-group__append">
+                            <button type="submit" class="c-btn v--signup">Sign up free</button>
+                        </div>
+                    </form>
+                    <p class="u-text-center"><a href="https://my.livechatinc.com" data-controller="track" data-track-category="Log In Button" data-track-action="Top Nav" data-track-label="Redirect to Accounts" data-action="track#send">Already a customer? <span class="u-text-primary">Log in</span></a></p>
+                </div>
+            </nav>
+
+            <div class="c-navbar__actions" data-target="logged-in.hide">
+                <a href="https://my.livechatinc.com" class="c-btn v--secondary v--sm u-border-white hover:u-bg-gray-900 hover:u-border-gray-900 hover:u-text-black" data-controller="track" data-track-category="Log In Button" data-track-action="Top Nav" data-track-label="Redirect to Accounts"
+                    data-action="track#send">Log in</a>
+
+
+                <div class="lc-signup-expandable" data-controller="expandable-signup">
+                    <form action="https://accounts.livechat.com/signup" method="GET" data-controller="signup" data-action="signup#submit" data-target="expandable-signup.form">
+                        <div class="o-input-group">
+                            <input type="email" name="email" class="v--sm" data-target="signup.email expandable-signup.input" placeholder="Enter your business email" aria-label="Business Email" required>
+                            <input type="hidden" name="source_id" value="header_cta">
+                            <input type="hidden" name="source_url" value="https://www.livechat.com/utm-builder/">
+                            <input type="hidden" name="source_type" value="website">
+                            <div class="o-input-group__append">
+                                <button type="submit" class="c-btn v--signup v--sm">Sign up free</button>
+                            </div>
+                        </div>
+                    </form>
+                    <a href="https://accounts.livechat.com/signup?source_id=header_cta&source_url=https://www.livechat.com/utm-builder/&source_type=website" class="c-btn v--secondary hover:u-bg-signup hover:u-border-signup v--sm" data-controller="track" data-track-category="Signup"
+                        data-track-action="Signup Redirect" data-action="track#send" data-target="expandable-signup.button">Sign up free</a>
+                </div>
+
+            </div>
+
+            <div class="c-navbar__actions" data-target="logged-in.show">
+                <a href="https://my.livechatinc.com" class="c-btn v--secondary v--sm u-border-white hover:u-bg-gray-900 hover:u-border-gray-900 hover:u-text-black" data-controller="track" data-track-category="Log In Button" data-track-action="Top Nav" data-track-label="Instant Login"
+                    data-action="track#send">Go to app</a>
+                <a href="https://my.livechatinc.com/subscription/?source_id=header_cta&source_url=https://www.livechat.com/utm-builder/&source_type=website" class="c-btn v--signup v--sm" data-controller="track" data-track-category="Personalised Web" data-track-action="Upgrade (Header)"
+                    data-action="track#send">Upgrade</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="o-wrapper">
+
+        <section class="u-border-b u-border-gray-900 u-fade-b u-Pt-lg u-Pb-xl" data-controller="utm-builder">
+            <div class="o-container">
+                <div class="u-flex u-Pb-sm">
+                    <div class="lg:u-basis-7">
+                        <h1 class="u-text-p4 u-Mb-md">UTM Builder</h1>
+                        <h2 class="u-text-p7-bold">Build URLs for your marketing campaigns</h2>
+                        <p>Thanks to links with UTM tags you are able to see data about Facebook and Google Ads campaigns performance in Google Analytics. You can also analyze traffic coming from referral and SEO backlinks.</p>
+                    </div>
+                    <div class="u-basis-5 u-hidden lg:u-block">
+                        <img src="/utm-builder/toolbox.10450ffb159d6a1cce187e17705294a788cd65531d6ced5c87f4960d182d66cf.png" srcset="/utm-builder/toolbox_hu47bd553cb496b54953b6d460f9ed70ff_34523_360x0_resize_lanczos_2.png 360w, /utm-builder/toolbox_hu47bd553cb496b54953b6d460f9ed70ff_34523_445x0_resize_lanczos_2.png 445w, /utm-builder/toolbox_hu47bd553cb496b54953b6d460f9ed70ff_34523_530x0_resize_lanczos_2.png 530w, /utm-builder/toolbox_hu47bd553cb496b54953b6d460f9ed70ff_34523_615x0_resize_lanczos_2.png 615w, /utm-builder/toolbox_hu47bd553cb496b54953b6d460f9ed70ff_34523_700x0_resize_lanczos_2.png 700w"
+                            alt="" class="u-maxw-2 u-mx-auto">
+
+                    </div>
+                </div>
+
+                <div class="o-columns v--two">
+                    <div>
+                        <form>
+                            <div class="u-flex u-items-center u-Mb-xs">
+                                <label for="your_url" class="u-text-p6-bold u-basis-4 u-mr-xs">Your URL*</label>
+                                <input type="url" name="your_url" id="your_url" data-target="utm-builder.baseUrl" data-action="keyup->utm-builder#generate" placeholder="https://" pattern="https?://.*" required>
+                            </div>
+                            <div class="u-flex u-items-center u-Mb-xs">
+                                <label for="utm_source" class="u-text-p6-bold u-basis-4 u-mr-xs">utm_source*</label>
+                                <input type="text" name="utm_source" id="utm_source" data-target="utm-builder.utmSource" data-action="keyup->utm-builder#generate">
+                            </div>
+                            <div class="u-flex u-items-center u-Mb-xs">
+                                <label for="utm_medium" class="u-text-p6-bold u-basis-4 u-mr-xs">utm_medium</label>
+                                <input type="text" name="utm_medium" id="utm_medium" data-target="utm-builder.utmMedium" data-action="keyup->utm-builder#generate">
+                            </div>
+                            <div class="u-flex u-items-center u-Mb-xs">
+                                <label for="utm_campaign" class="u-text-p6-bold u-basis-4 u-mr-xs">utm_campaign</label>
+                                <input type="text" name="utm_campaign" id="utm_campaign" data-target="utm-builder.utmCampaign" data-action="keyup->utm-builder#generate">
+                            </div>
+                            <div class="u-flex u-items-center u-Mb-xs">
+                                <label for="utm_content" class="u-text-p6-bold u-basis-4 u-mr-xs">utm_content</label><input type="text" name="utm_content" id="utm_content" data-target="utm-builder.utmContent" data-action="keyup->utm-builder#generate">
+                            </div>
+                            <div class="u-flex u-items-center">
+                                <label for="utm_term" class="u-text-p6-bold u-basis-4 u-mr-xs">utm_term</label><input type="text" name="utm_term" id="utm_term" data-target="utm-builder.utmTerm" data-action="keyup->utm-builder#generate">
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="u-bg-gray-900 u-rounded u-Px-sm u-Py-xs u-Mb-xs">
+                            <div class="u-Mb-2xs"><label class="u-text-p6"><input type="checkbox" name="spaces" id="spaces" style="vertical-align: top;" class="u-mt-2xs u-mr-xs" data-target="utm-builder.filterSpaces" data-action="utm-builder#generate">Swap spaces to dash</label></div>
+                            <div><label class="u-text-p6"><input type="checkbox" name="lower" id="lower" style="vertical-align: top;" class="u-mt-2xs u-mr-xs" data-target="utm-builder.filterLower" data-action="utm-builder#generate">Convert to lower case</label></div>
+                        </div>
+
+                        <div class="u-bg-accent u-rounded u-Px-sm u-Py-xs u-flex u-flex-col" data-controller="clipboard">
+                            <h3 class="u-Mb-xs u-text-p5-bold">Your tagged link</h3>
+                            <textarea name="final_url" id="final_url" class="u-Mb-2xs" onclick="this.focus();this.select()" data-target="utm-builder.finalUrl clipboard.source" rows="1" readonly style="resize: none;"></textarea>
+                            <button type="button" class="c-btn v--primary" data-action="clipboard#copy">Copy to clipboard</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="o-container u-Pb-xl">
+            <div class="u-maxw-8 u-mx-auto">
+                <h2 class="u-text-p5-bold u-Mt-lg u-Mb-xs">What is UTM tracking code?</h2>
+                <p>UTM parameters are attached at the end of a link that points to your website, to help you easily track performance of any ad or affiliate campaign. There are five of these parameters, each covering different data segment.</p>
+                <ul>
+                    <li><strong>utm_source</strong> &mdash; the source of your traffic, e.g. google, email, facebook, bing</li>
+                    <li><strong>utm_medium</strong> &mdash; the medium that has been used for your source. E.g. if the utm_source is email, utm_medium could be “newsletter”. For Pay-Per-Click (PPC) campaigns on Google or Facebook we would use utm_medium=CPC,
+                        etc.</li>
+                    <li><strong>utm_campaign</strong> &mdash; a name of your campaign, e.g. 50percentoff, 01-facebook-ads-usa,monthly-newsletter-2019-05, you-decide-campaign-name</li>
+                    <li><strong>utm_content</strong> &mdash; content variant you are showing with your link. For a given campaign, you may want to serve different types of content. Utm_content identifies which type has been served to the user, so you can
+                        analyze its performance later on. Some examples: “spring-clothes-2018-variant-a” and “spring-clothes-2018-variant-b”.</li>
+                    <li><strong>utm_term</strong> &mdash; best practice is to use keywords, if necessary</li>
+                </ul>
+                <p>Required parameter: utm_source. Best practice: utm_source, utm_medium, utm_campaign.</p>
+
+                <h2 class="u-text-p5-bold u-Mt-lg u-Mb-xs">How do I create an UTM code?</h2>
+                <p>There are two ways. The easier one is to use our UTM builder, which will generate a ready-to-use URL based on your preferences. The second way is to create the tracking URL manually, by adding each UTM parameter at the end of your link,
+                    attached with “?” symbol after the main part of your URL, followed by “&” symbol between all parameters.</p>
+                <p>A properly tagged URL would then look like this:</p>
+                <div class="highlight">
+                    <pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">https://www.livechat.com/?utm_source=google<span style="color:#a40000">&amp;</span>utm_medium=cpc<span style="color:#a40000">&amp;</span>utm_campaign=01-july-campaign<span style="color:#a40000">&amp;</span>utm_term=page-visitors-targeting<span style="color:#a40000">&amp;</span>utm_content=variant-a-yellow-ad</code></pre>
+                </div>
+
+                <h2 class="u-text-p5-bold u-Mt-lg u-Mb-xs">How can I use UTM to track Facebook Ads campaigns?</h2>
+                <p>If you are running paid ad campaigns, the best practice is to use utm_source as facebook, utm_medium as CPC. For utm_term we recommend describing the name of an Adgroup targeting with a few descriptive words, e.g.. “20-35-interested-in-cars”.
+                    utm_content could be your ad variant. If you are running a/b tests with your ads, you might want to see which version performed better. The best option is to generate two links with different utm_content for each ad in the same ad
+                    group or campaign.</p>
+
+                <h2 class="u-text-p5-bold u-Mt-lg u-Mb-xs">Can I track Google Ads campaigns?</h2>
+                <p>You can, but you don’t have to use UTMs to see Google Ads performance in your Google Analytics tracking property. You can link both accounts to send data with a gclid parameter of the ad. This will allow you to make an internal link between
+                    click and session automatically and import everything both ways without any additional setup. It is easier, more convenient and accurate than using UTM for Google Ads tracking.</p>
+
+                <h2 class="u-text-p5-bold u-Mt-lg u-Mb-xs">Are UTM codes case-sensitive?</h2>
+                <p>Yes, they are case sensitive - best practice is to use small case and be consistent with your naming scheme. You can use our tool to switch between lowercase and uppercase on the fly. In addition, we also implemented an option to remove
+                    spaces and swap them with a dash.</p>
+            </div>
+        </section>
+
+        <style>
+            .c-btn.v--copied::after {
+                content: " \2713";
+                transition: all 0.3s;
+            }
+        </style>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="u-bg-gray-900 u-Py-lg u-border-t u-border-gray-800">
+        <div class="o-container u-maxw-10 u-mx-auto">
+            <h2 class="u-text-p5-bold u-text-center u-Mb-md">Discover our other products</h2>
+            <div class="o-columns v--three v--responsive">
+                <a href="https://www.chatbot.com/?utm_source=livechat.com&utm_medium=referral&utm_campaign=productbarfooter" target="_blank" rel="noopener" class="u-flex u-items-center c-link v--reset">
+                    <div class="u-Mr-xs">
+                        <svg width="72" height="72" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd1)"><rect x="4" y="3" width="64" height="64" rx="10" fill="#fff"/></g><path d="M43.6 31.6v3a1.1 1.1 0 01-.6 1.1c-2.2 1-4.6 1.6-7 1.7-2.4 0-4.8-.6-7-1.7a1.1 1.1 0 01-.6-1v-3.1a.9.9 0 011.2-.8c2 .9 4.2 1.3 6.4 1.4 2.2 0 4.3-.5 6.4-1.4a.9.9 0 011.2.8z" fill="#06F"/><path d="M51.8 38.9a7.6 7.6 0 01-7.6 6.9H40L32 51v-5.2l8-5.2h4.2a2.4 2.4 0 002.4-2.1c.3-4 .2-8 0-12a2.2 2.2 0 00-2.1-2 138.9 138.9 0 00-17 0 2.2 2.2 0 00-2 2c-.4 4-.4 8-.1 12a2.4 2.4 0 002.4 2.1H32v5.2h-4.2a7.6 7.6 0 01-7.6-7 96 96 0 010-12.7 7.4 7.4 0 017-6.8 125 125 0 0117.6 0 7.4 7.4 0 017 6.8 96 96 0 010 12.8z" fill="#06F"/><defs><filter id="filter0_dd1" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs></svg>
+                    </div>
+                    <p class="u-text-p7 u-mb-0"><span class="u-text-p7-bold">ChatBot</span> <br>Automate customer service with&nbsp;AI</p>
+                </a>
+                <a href="https://www.helpdesk.com/?utm_source=livechat.com&utm_medium=referral&utm_campaign=productbarfooter" target="_blank" rel="noopener" class="u-flex u-items-center c-link v--reset">
+                    <div class="u-Mr-xs">
+                        <svg width="72" height="72" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd2)"><rect x="4" y="3" width="64" height="64" rx="10" fill="#fff"/></g><path d="M36 33.3l8.1-7.1H36c-2.9 0-5.8.1-8.5.3a2.2 2.2 0 00-2 2c-.2 1.7-.3 3.8-.3 6v1c0 2.2 0 4.3.2 6a2.2 2.2 0 002.1 2c5.7.4 11.3.4 17 0a2.2 2.2 0 002-2c.2-1.6.3-3.6.3-5.6l5.2-4.5v4.5l-.2 6a7.4 7.4 0 01-7 6.8 118.6 118.6 0 01-17.7 0 7.4 7.4 0 01-6.9-6.8 83 83 0 01-.2-6.3v-1.2l.2-6.3a7.4 7.4 0 017-6.8C30 21.1 33 21 36 21h16v5.2L36 40.1l-7.5-6.5 4-3.4 3.5 3z" fill="#2FC774"/><defs><filter id="filter0_dd2" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs></svg>
+                    </div>
+                    <p class="u-text-p7 u-mb-0"><span class="u-text-p7-bold">HelpDesk</span> <br>Support customers with&nbsp;tickets</p>
+                </a>
+                <a href="https://www.knowledgebase.ai/?utm_source=livechat.com&utm_medium=referral&utm_campaign=productbarfooter" target="_blank" rel="noopener" class="u-flex u-items-center c-link v--reset">
+                    <div class="u-Mr-xs">
+                        <svg width="72" height="72" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_dd3)"><rect x="4" y="3" width="64" height="64" rx="10" fill="#fff"/></g><path d="M46.8 26.4V21h-.3c-4.4.2-8.1 3-10.4 5.4H36c-2.3-2.3-6-5.2-10.4-5.4h-.3v5.4H20v9.2l.2 6.3a7.4 7.4 0 007 6.8 125.1 125.1 0 0017.7 0 7.4 7.4 0 006.9-6.8l.2-6.3v-9.2h-5.2zm0 9.2c0 2 0 4.2-.2 5.9a2.2 2.2 0 01-2.1 2c-5.7.4-11.3.4-17 0a2.2 2.2 0 01-2-2 76 76 0 01-.3-6v-9.1c3.8.1 7.5 4.1 8.6 5.7l2.2 3 2.2-3c1.1-1.6 4.8-5.6 8.6-5.7v9.2z" fill="#9146FF"/><defs><filter id="filter0_dd3" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset dy="1"/><feGaussianBlur stdDeviation="2"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/><feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/><feOffset/><feGaussianBlur stdDeviation="1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/><feBlend in2="effect1_dropShadow" result="effect2_dropShadow"/><feBlend in="SourceGraphic" in2="effect2_dropShadow" result="shape"/></filter></defs></svg>
+                    </div>
+                    <p class="u-text-p7 u-mb-0"><span class="u-text-p7-bold">KnowledgeBase</span> <br>Guide and educate customers</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="u-bg-gray-900 u-Pt-md">
+        <div class="u-border-b">
+            <div class="o-container-xl">
+
+                <div class="u-flex u-flex-wrap u-items-center u-Mb-xs">
+                    <p class="u-text-p8-bold u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">Get LiveChat App</p>
+                    <p class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs"><a href="/app/livechat-web-app/" class="c-link v--reset u-text-p8 u-flex u-items-center u-w-fit"><svg width="15" height="15" xmlns="http://www.w3.org/2000/svg"><g fill="#1B1B20" fill-rule="evenodd"><path d="M7.57 14.51c1.12-.15 2.1-1.31 2.72-3.03-.9-.2-1.8-.3-2.72-.31v3.34zM9.36 14.24l.2-.06.16-.05.19-.07.16-.07.19-.07a7.87 7.87 0 0 0 1.6-.97l.15-.11.15-.14.13-.11.15-.15.13-.12.02-.02a8.81 8.81 0 0 0-1.8-.69 6.44 6.44 0 0 1-1.66 2.7l.06-.02.17-.05zM14.62 7.52h-3.13a13.4 13.4 0 0 1-.53 3.6c.69.18 1.35.44 1.98.78a7.23 7.23 0 0 0 1.68-4.38zM7.57 7h3.4a12.92 12.92 0 0 0-.52-3.46c-.95.21-1.91.33-2.88.34V7zM7.57.01v3.35c.91-.01 1.82-.12 2.72-.32C9.67 1.33 8.69.17 7.57.01zM7.57 10.65c.97 0 1.93.12 2.88.34.33-1.13.5-2.3.51-3.47H7.57v3.13zM12.94 2.62c-.63.34-1.3.6-1.98.79.34 1.17.51 2.38.53 3.6h3.13a7.23 7.23 0 0 0-1.68-4.39zM12.59 2.23l-.02-.02-.13-.13-.15-.14-.13-.12-.15-.13-.14-.11a5.59 5.59 0 0 0-.94-.63 7.23 7.23 0 0 0-.17-.1L10.6.77a5.78 5.78 0 0 0-.34-.16l-.19-.08a7.38 7.38 0 0 0-.72-.25L9.2.24 9.13.22a6.44 6.44 0 0 1 1.67 2.7 8.8 8.8 0 0 0 1.79-.69zM0 7h3.13c.01-1.21.2-2.42.53-3.6a9.1 9.1 0 0 1-1.98-.78A7.23 7.23 0 0 0 0 7zM7.05 14.51v-3.34c-.92 0-1.82.12-2.72.31.62 1.72 1.6 2.88 2.72 3.03zM7.05 7.52h-3.4c.02 1.18.2 2.34.52 3.47.94-.22 1.9-.33 2.88-.34V7.52zM7.05.01c-1.12.16-2.1 1.32-2.72 3.03.9.2 1.8.3 2.72.32V0zM7.05 3.88c-.97-.01-1.94-.13-2.88-.34-.33 1.12-.5 2.29-.51 3.46h3.39V3.88zM5.49.22l-.06.02-.17.04-.2.06L4.9.4l-.2.07-.15.06-.19.08a7.57 7.57 0 0 0-.82.42l-.17.1a6.85 6.85 0 0 0-.46.32l-.16.13-.14.1-.15.14-.13.12-.15.14-.13.13-.02.02c.57.3 1.17.52 1.8.68C4.13 1.9 4.71.97 5.48.22zM2.18 12.44l.15.14.13.12.15.14.14.1.16.13.14.1a7.4 7.4 0 0 0 .81.5l.16.09a6.08 6.08 0 0 0 .34.16l.19.07a7.38 7.38 0 0 0 .35.14l.17.05.2.06.16.05.06.01a6.44 6.44 0 0 1-1.67-2.7 8.8 8.8 0 0 0-1.79.7l.02.02.13.12zM1.68 11.9c.62-.34 1.3-.6 1.98-.78a13.4 13.4 0 0 1-.53-3.6H0c.06 1.6.65 3.15 1.68 4.38z"/></g></svg>
+<span class="u-ml-xs">Web Browser</span></a></p>
+                    <p class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs"><a href="/app/livechat-for-windows/" class="c-link v--reset u-text-p8 u-flex u-items-center u-w-fit"><svg width="15" height="15" xmlns="http://www.w3.org/2000/svg"><g fill="#1B1B20" fill-rule="evenodd"><path d="M0 12.5l6 .8V7.7H0zM0 6.9h6V1.2L0 2zM6.7 13.4l7.9 1.1V7.7H6.7zM6.8 1.1v5.7h7.7V0z"/></g></svg>
+ <span class="u-ml-xs">Windows</span></a></p>
+                    <p class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs"><a href="/app/livechat-for-android/" class="c-link v--reset u-text-p8 u-flex u-items-center u-w-fit"><svg width="15" height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#1B1B20" fill-rule="evenodd"><path d="M1.08 5.58h-.05C.47 5.58 0 6.04 0 6.6v4.44c0 .57.47 1.02 1.03 1.02h.05c.56 0 1.03-.46 1.03-1.02V6.6c0-.56-.47-1.02-1.03-1.02zM2.6 12.76c0 .51.42.93.94.93h1.01v2.4c0 .57.47 1.02 1.03 1.02h.05c.57 0 1.03-.46 1.03-1.02v-2.4h1.41v2.4c0 .57.46 1.02 1.03 1.02h.04c.57 0 1.03-.46 1.03-1.02v-2.4h1.01c.52 0 .95-.42.95-.93V5.74H2.6v7.02z"/><path d="M9.74 1.49l.8-1.23a.17.17 0 0 0-.05-.23.17.17 0 0 0-.24.05l-.83 1.27a5.46 5.46 0 0 0-4.11 0L4.48.08a.17.17 0 0 0-.24-.05.17.17 0 0 0-.05.23l.8 1.23a4.03 4.03 0 0 0-2.4 3.83h9.56l.01-.28c0-1.52-.98-2.85-2.42-3.55zm-4.6 2.2a.46.46 0 0 1-.45-.46c0-.25.2-.45.46-.45a.46.46 0 1 1 0 .91zm4.44 0a.46.46 0 0 1-.46-.46c0-.25.2-.45.46-.45a.46.46 0 1 1 0 .91z" fill-rule="nonzero"/><path d="M13.7 5.58h-.05c-.56 0-1.03.46-1.03 1.02v4.44c0 .57.47 1.02 1.03 1.02h.05c.56 0 1.02-.46 1.02-1.02V6.6c0-.56-.46-1.02-1.03-1.02z"/></g></svg>
+ <span class="u-ml-xs">Android</span></a></p>
+                    <p class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs u-text-p8 u-flex u-items-center u-w-fit"><svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6 13.9l-1 1.5a1.2 1.2 0 01-2-1.1l.7-1.2c.2-.2.5-.5 1-.4 0 0 1.3 0 1.4.8l-.1.4zM17 10H13.9L11 4.8l-.2-.3c-.3-.4-.7.7-.7.7-.6 1.2 0 2.7.3 3l4 7.1a1.2 1.2 0 002-1.1l-1-1.8s0-.2.2-.2H17c.6 0 1.1-.5 1.1-1.1 0-.6-.5-1.2-1.1-1.2zm-5.3 1.6s.1.7-.5.7h-10a1.2 1.2 0 010-2.3h2.5c.5 0 .6-.2.6-.2l3.4-5.9v-.2l-1.2-2a1.2 1.2 0 012-1.1l.6.9.5-1a1.2 1.2 0 012 1.2L6.9 10l.1.1h2.8s1.6 0 1.9 1.6z" fill="#1B1B20"/></svg>
+                        <a
+                            href="/app/livechat-for-iphone/" class="c-link v--reset u-text-p8 u-ml-xs">iOS</a>
+                    </p>
+                    <p class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs"><a href="/app/livechat-for-mac/" class="c-link v--reset u-text-p8 u-flex u-items-center u-w-fit"><svg width="15" height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#1B1B20" fill-rule="evenodd"><path d="M12.4 9.3c0-2.2 1.8-3.3 1.9-3.3a4.1 4.1 0 0 0-3.2-1.8c-1.4-.1-2.7.8-3.4.8-.7 0-1.8-.7-3-.7-1.4 0-2.8.8-3.6 2.2C-.5 9.2.7 13 2.2 15.3c.8 1 1.7 2.3 2.8 2.2 1.1 0 1.6-.7 3-.7 1.3 0 1.6.7 2.8.7 1.2 0 2-1 2.7-2.1.9-1.3 1.2-2.5 1.3-2.5 0 0-2.4-1-2.4-3.6zM10.2 2.8c.6-.7 1-1.8.9-2.8a4 4 0 0 0-2.6 1.3C7.9 2 7.4 3 7.5 4c1 .1 2-.5 2.7-1.2z"/></g></svg>
+ <span class="u-ml-xs">Mac</span></a></p>
+                </div>
+
+                <nav class="u-flex u-flex-wrap u-Mb-sm">
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Product</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/pricing/" class="u-text-p8 c-link v--reset u-block u-py-xs">Pricing</a></li>
+
+                            <li><a href="/benefits/" class="u-text-p8 c-link v--reset u-block u-py-xs">LiveChat Benefits</a></li>
+
+                            <li><a href="/tour/" class="u-text-p8 c-link v--reset u-block u-py-xs">Tour</a></li>
+
+                            <li><a href="/features/" class="u-text-p8 c-link v--reset u-block u-py-xs">Features</a></li>
+
+                            <li><a href="/use-cases/" class="u-text-p8 c-link v--reset u-block u-py-xs">Use Cases</a></li>
+
+                            <li><a href="/app/" class="u-text-p8 c-link v--reset u-block u-py-xs">App</a></li>
+
+                            <li><a href="/marketplace/" class="u-text-p8 c-link v--reset u-block u-py-xs">Marketplace</a></li>
+
+                            <li><a href="/updates/" class="u-text-p8 c-link v--reset u-block u-py-xs">Updates</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Customers</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/customers/" class="u-text-p8 c-link v--reset u-block u-py-xs">Customers</a></li>
+
+                            <li><a href="/customers/customer-stories/" class="u-text-p8 c-link v--reset u-block u-py-xs">Case Studies</a></li>
+
+                            <li><a href="/customers/#industries" class="u-text-p8 c-link v--reset u-block u-py-xs">Industries</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Resources</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/success/" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">Success by LiveChat</a></li>
+
+                            <li><a href="/success/customer-service-guide/" class="u-text-p8 c-link v--reset u-block u-py-xs">Customer Service Guide</a></li>
+
+                            <li><a href="/newsletter/" class="u-text-p8 c-link v--reset u-block u-py-xs">Newsletter</a></li>
+
+                            <li><a href="/resources/reports/" class="u-text-p8 c-link v--reset u-block u-py-xs">Reports</a></li>
+
+                            <li><a href="/benchmark/" class="u-text-p8 c-link v--reset u-block u-py-xs">Benchmark</a></li>
+
+                            <li><a href="/typing-speed-test/" class="u-text-p8 c-link v--reset u-block u-py-xs">Typing Speed Test</a></li>
+
+                            <li><a href="/privacy-policy-generator/" class="u-text-p8 c-link v--reset u-block u-py-xs">Privacy Policy Generator</a></li>
+
+                            <li><a href="/customer-service-report/" class="u-text-p8 c-link v--reset u-block u-py-xs">Customer Service Report</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Support</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/help/" class="u-text-p8 c-link v--reset u-block u-py-xs">Help Center</a></li>
+
+                            <li><a href="/community/" class="u-text-p8 c-link v--reset u-block u-py-xs">Community</a></li>
+
+                            <li><a href="/webinars/" class="u-text-p8 c-link v--reset u-block u-py-xs">Webinars</a></li>
+
+                            <li><a href="/marketplace/experts/" class="u-text-p8 c-link v--reset u-block u-py-xs">Experts Marketplace</a></li>
+
+                            <li><a href="https://developers.livechat.com/" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">API &amp; Developers</a></li>
+
+                            <li><a href="https://status.livechat.com/" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">System Status</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Company</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/contact/" class="u-text-p8 c-link v--reset u-block u-py-xs">Contact</a></li>
+
+                            <li><a href="https://investor.livechatinc.com/" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">Investor Relations</a></li>
+
+                            <li><a href="/team/" class="u-text-p8 c-link v--reset u-block u-py-xs">Team</a></li>
+
+                            <li><a href="/about/" class="u-text-p8 c-link v--reset u-block u-py-xs">About</a></li>
+
+                            <li><a href="https://partners.livechat.com/?utm_source=livechat.com&amp;utm_medium=referral&amp;utm_content=footer" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">Partner Program</a></li>
+
+                            <li><a href="/press/" class="u-text-p8 c-link v--reset u-block u-py-xs">Press</a></li>
+
+                            <li><a href="/careers/" class="u-text-p8 c-link v--reset u-block u-py-xs" target="_blank" rel="noopener">Careers</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="u-flex-1 u-basis-6 sm:u-basis-4 lg:u-basis-2 u-Mb-xs">
+                        <p class="u-text-p8-bold u-Mb-2xs">Legal</p>
+                        <ul class="u-p-0 u-m-0">
+
+                            <li><a href="/legal/terms-and-conditions/" class="u-text-p8 c-link v--reset u-block u-py-xs">Terms &amp; Conditions</a></li>
+
+                            <li><a href="/legal/privacy-policy/" class="u-text-p8 c-link v--reset u-block u-py-xs">Privacy Policy</a></li>
+
+                            <li><a href="/legal/security/" class="u-text-p8 c-link v--reset u-block u-py-xs">Security</a></li>
+
+                            <li><a href="/legal/gdpr-faq/" class="u-text-p8 c-link v--reset u-block u-py-xs">GDPR</a></li>
+
+                            <li><a href="/legal/accessibility-at-livechat/" class="u-text-p8 c-link v--reset u-block u-py-xs">Accessibility</a></li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+                <div class="u-flex sm:u-items-center lg:u-justify-between u-flex-col lg:u-flex-row">
+
+                    <div class="u-hidden sm:u-flex u-items-center u-flex-col md:u-flex-row u-Mb-lg lg:u-Mb-xs">
+                        <p class="u-text-p7-bold u-Mb-xs md:u-mb-0 u-mr-2xl">Start your free trial</p>
+                        <form action="https://accounts.livechat.com/signup" method="GET" data-controller="signup" data-action="signup#submit" class="o-input-group">
+                            <input type="email" name="email" class="" style="border-color: #767680; min-width: 240px;" data-target="signup.email" placeholder="Enter your business email" aria-label="Business Email" required>
+                            <input type="hidden" name="source_id" value="footer_cta">
+                            <input type="hidden" name="source_url" value="https://www.livechat.com/utm-builder/">
+                            <input type="hidden" name="source_type" value="website">
+                            <div class="o-input-group__append">
+                                <button type="submit" class="c-btn v--signup">Sign up free</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sm:u-hidden u-items-center u-flex-col md:u-flex-row u-Mb-lg lg:u-Mb-xs">
+                        <p class="u-text-p7-bold u-Mb-xs md:u-mb-0 u-mr-2xl">Start your free trial</p>
+                        <form action="https://accounts.livechat.com/signup" method="GET" data-controller="signup" data-action="signup#submit">
+                            <input type="email" name="email" class="u-block u-mb-sm" style="border-color: #767680; min-width: 240px;" data-target="signup.email" placeholder="Enter your business email" aria-label="Business Email" required>
+                            <input type="hidden" name="source_id" value="footer_cta">
+                            <input type="hidden" name="source_url" value="https://www.livechat.com/utm-builder/">
+                            <input type="hidden" name="source_type" value="website">
+                            <button type="submit" class="c-btn v--signup u-block u-w-full">Sign up free</button>
+                        </form>
+                    </div>
+
+                    <div class="u-flex u-items-center u-Mb-xs u-justify-between u-w-full u-maxw-4">
+
+
+                        <a href="https://twitter.com/intent/follow?screen_name=LiveChat" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="20" xmlns="http://www.w3.org/2000/svg" aria-labelledby="icon-twitter-title"><title id="icon-twitter-title">Twitter</title><path d="M21.2 3A5 5 0 0 0 23.3.5c-1 .5-2 1-3 1.2A5 5 0 0 0 11.7 6 14 14 0 0 1 1.7 1a4.9 4.9 0 0 0 1.5 6.6c-.8 0-1.6-.3-2.2-.6a5 5 0 0 0 4 4.8 5 5 0 0 1-2.3.1 5 5 0 0 0 4.6 3.5 9.9 9.9 0 0 1-7.3 2A14 14 0 0 0 21.5 4.9 10 10 0 0 0 24 2.3c-.9.4-1.8.7-2.8.8z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://www.linkedin.com/company/livechat/" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-linkedin" aria-labelledby="icon-linkedin-title"><title id="icon-linkedin-title">LinkedIn</title><path d="M20.45 20.45H16.9v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM3.55 20.45h3.57V9H3.55v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://www.facebook.com/livechat" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-facebook" aria-labelledby="icon-facebook-title"><title id="icon-facebook-title">Facebook</title><path d="M22.7 0H1.3C.6 0 0 .6 0 1.3v21.4c0 .7.6 1.3 1.3 1.3h11.5v-9.3H9.7v-3.6h3.1V8.4c0-3 2-4.8 4.7-4.8 1 0 1.8 0 2.8.2V7h-2c-1.4 0-1.7.7-1.7 1.8V11h3.6l-.5 3.6h-3.1V24h6c.8 0 1.4-.6 1.4-1.3V1.3c0-.7-.6-1.3-1.3-1.3z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://www.youtube.com/livechat?sub_confirmation=1" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="17" xmlns="http://www.w3.org/2000/svg" id="icon-youtube" aria-labelledby="icon-youtube-title"><title id="icon-youtube-title">YouTube</title><path d="M9.5 11.6V4.8L16 8.2l-6.5 3.4zm14.3-8s-.3-1.6-1-2.3c-1-1-2-1-2.4-1C17 0 12 0 12 0S7 0 3.6.2c-.5.1-1.5.1-2.4 1-.7.8-1 2.4-1 2.4l-.2 4v1.7l.2 4s.3 1.6 1 2.3c1 1 2.1 1 2.6 1 2 .2 8.2.3 8.2.3s5 0 8.4-.3c.5 0 1.5 0 2.4-1 .7-.7 1-2.4 1-2.4l.2-3.9V7.5c0-2-.2-3.9-.2-3.9z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://www.instagram.com/livechat/" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-instagram" aria-labelledby="icon-instagram-title"><title id="icon-instagram-title">Instagram</title><path d="M12 0c3.26 0 3.67.01 4.95.07a8.8 8.8 0 0 1 2.91.56c.79.3 1.46.72 2.13 1.38a5.88 5.88 0 0 1 1.38 2.13c.3.76.5 1.64.56 2.91.06 1.28.07 1.7.07 4.95 0 3.26-.01 3.67-.07 4.95a8.8 8.8 0 0 1-.56 2.91c-.3.79-.72 1.46-1.38 2.13a5.88 5.88 0 0 1-2.13 1.38c-.76.3-1.64.5-2.91.56-1.28.06-1.7.07-4.95.07-3.26 0-3.67-.01-4.95-.07a8.8 8.8 0 0 1-2.91-.56 5.88 5.88 0 0 1-2.13-1.38 5.88 5.88 0 0 1-1.38-2.13 8.8 8.8 0 0 1-.56-2.91A85.12 85.12 0 0 1 0 12c0-3.26.01-3.67.07-4.95a8.8 8.8 0 0 1 .56-2.91c.3-.79.72-1.46 1.38-2.13A5.88 5.88 0 0 1 4.14.63 8.8 8.8 0 0 1 7.05.07C8.33.01 8.75 0 12 0zm4.85 2.23A83.28 83.28 0 0 0 12 2.16c-3.2 0-3.58.01-4.85.07-1.17.06-1.8.25-2.23.42-.56.21-.96.47-1.38.9-.42.41-.68.81-.9 1.37a6.64 6.64 0 0 0-.4 2.23A83.28 83.28 0 0 0 2.15 12c0 3.2.01 3.58.07 4.85.06 1.17.25 1.8.42 2.23.21.56.47.96.9 1.38.41.42.81.68 1.37.9.43.16 1.06.35 2.23.4 1.27.07 1.65.08 4.85.08 3.2 0 3.58-.01 4.85-.07a6.64 6.64 0 0 0 2.23-.42c.56-.21.96-.47 1.38-.9.42-.41.68-.81.9-1.37.16-.43.35-1.06.4-2.23.07-1.27.08-1.65.08-4.85 0-3.2-.01-3.58-.07-4.85a6.64 6.64 0 0 0-.42-2.23 3.72 3.72 0 0 0-.9-1.38 3.72 3.72 0 0 0-1.37-.9 6.64 6.64 0 0 0-2.23-.4zM12 5.83a6.16 6.16 0 1 1 0 12.33 6.16 6.16 0 0 1 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm7.85-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://www.producthunt.com/posts/livechat-2" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-producthunt" aria-labelledby="icon-producthunt-title"><title id="icon-producthunt-title">ProductHunt</title><path d="M13.6 8.4a1.8 1.8 0 1 1 0 3.6h-3.4V8.4h3.4zm0 6a4.2 4.2 0 1 0 0-8.4H7.8v12h2.4v-3.6h3.4zM12 0a12 12 0 1 1 0 24 12 12 0 0 1 0-24z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://dribbble.com/livechat" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-dribbble" aria-labelledby="icon-dribbble-title"><title id="icon-dribbble-title">Dribbble</title><path d="M20 5.5c-.3.3-2 2.5-5.8 4a30.8 30.8 0 0 1 1 2 24 24 0 0 1 7 .4c0-2.4-.8-4.6-2.3-6.4M9.6 2.1c.3.3 2.1 2.9 3.8 6 3.7-1.4 5.2-3.5 5.4-3.8a10.2 10.2 0 0 0-9.2-2.2M2 9.9c.4 0 4.6 0 9.4-1.2-1.7-3-3.5-5.6-3.8-6-2.8 1.4-5 4-5.6 7.2m2.4 9a16.3 16.3 0 0 1 8.7-7 34 34 0 0 0-.8-1.7c-5.1 1.6-10.1 1.5-10.5 1.5v.3c0 2.6 1 5 2.6 6.9M16 21.5c-.1-1-.7-4-2.2-7.8a14 14 0 0 0-8 6.4A10.2 10.2 0 0 0 16 21.5m6.1-7.9a15 15 0 0 0-6.4-.4c1.4 3.7 2 6.7 2 7.3 2.3-1.5 4-4 4.4-6.9M12 24a12 12 0 1 1 0-24 12 12 0 0 1 0 24" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+
+                        <a href="https://github.com/livechat" class="u-text-gray-100 hover:u-text-gray-300"><svg role="img" width="24" height="24" xmlns="http://www.w3.org/2000/svg" id="icon-github" aria-labelledby="icon-github-title"><title id="icon-github-title">GitHub</title><path d="M23.2 6.1A12.3 12.3 0 0 0 12.4 0 12.3 12.3 0 0 0 1.7 6.1 12 12 0 0 0 0 12.3c0 2.7.8 5 2.4 7.2C4 21.7 6 23.2 8.5 24l.6-.1c.2-.2.3-.3.3-.5a365.7 365.7 0 0 0 0-2.3H9l-1 .1a7 7 0 0 1-1-.1c-.4 0-.8-.2-1.1-.5a2 2 0 0 1-.8-1l-.1-.3a4 4 0 0 0-.5-.8 2 2 0 0 0-.7-.7h-.1a1.2 1.2 0 0 1-.4-.5v-.1L4 17h.3l.8.4c.3.2.6.5.8.9.2.4.5.7.9 1 .3.2.7.3 1 .3h1l.7-.3c0-.7.3-1.3.8-1.7-.7 0-1.2-.1-1.7-.3-.5 0-1-.3-1.5-.6a4.3 4.3 0 0 1-2.2-2.7 8 8 0 0 1-.3-2.4c0-1.3.4-2.4 1.3-3.3-.4-1-.4-2.1 0-3.3.4-.1.9 0 1.5.2a9.8 9.8 0 0 1 2 1 11.6 11.6 0 0 1 6.2 0l.7-.3 1.4-.7c.6-.2 1-.3 1.4-.2.4 1.2.5 2.3 0 3.3 1 .9 1.4 2 1.4 3.3A8 8 0 0 1 20 14a5 5 0 0 1-.8 1.7l-1.3 1c-.6.3-1 .5-1.6.6-.5.2-1 .3-1.6.3.5.5.8 1.3.8 2.3v3.4c0 .2 0 .3.2.5h.7a12.2 12.2 0 0 0 8.5-11.6 12 12 0 0 0-1.7-6.2z" fill="currentColor" fill-rule="evenodd"/></svg>
+</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="o-container-xl u-Py-xs u-flex u-flex-col sm:u-flex-row u-justify-between">
+            <p class="u-text-p9 u-text-gray-400 u-Mb-xs">Copyright &copy; 2021 LiveChat, Inc. All rights reserved<br>We use Cookies. <a href="/legal/privacy-policy/#using-cookies" class="u-text-p9-bold u-text-gray-400">Click to learn more →</a></p>
+
+            <p class="u-text-p9 u-text-gray-400 u-mb-0 u-maxw-4">LiveChat – customer service for business: <a href="/best-live-chat-software/" class="u-text-p9 u-text-gray-400">best live chat software</a> to increase sales.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script async defer src="/dist/js/main.e4b791b50a00c9a7b170914250d04faa86b182d78f54a3324f3864ad4335ad0c.js"></script>
+
+
+
+    <script>
+        if (typeof window.__PRERENDER_INJECTED === "undefined") {
+
+            window.__lc = window.__lc || {};
+            window.__lc.license = 1520;
+            window.__lc.ga_version = 'gtm';
+
+            (function() {
+                var lc = document.createElement('script');
+                lc.type = 'text/javascript';
+                lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/staging/tracking.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(lc, s);
+            })();
+
+
+            window.__be = window.__be || {};
+            window.__be.id = "5c35cb513fb8851a6962362f";
+            (function() {
+                var be = document.createElement('script');
+                be.type = 'text/javascript';
+                be.async = true;
+                be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(be, s);
+            })();
+
+
+        }
+    </script>
+
+    <script type="text/javascript">
+        (function(window, document, dataLayerName, id) {
+            window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({
+                start: (new Date).getTime(),
+                event: "stg.start"
+            });
+            var scripts = document.getElementsByTagName('script')[0],
+                tags = document.createElement('script');
+
+            function stgCreateCookie(a, b, c) {
+                var d = "";
+                if (c) {
+                    var e = new Date;
+                    e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3), d = "; expires=" + e.toUTCString()
+                }
+                document.cookie = a + "=" + b + d + "; path=/"
+            }
+            var isStgDebug = (window.location.href.match("stg_debug") || document.cookie.match("stg_debug")) && !window.location.href.match("stg_disable_debug");
+            stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+            var qP = [];
+            dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName), isStgDebug && qP.push("stg_debug");
+            var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+            tags.async = !0, tags.src = "https://livechat.containers.piwik.pro/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+            ! function(a, n, i) {
+                a[n] = a[n] || {};
+                for (var c = 0; c < i.length; c++) ! function(i) {
+                    a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function() {
+                        var a = [].slice.call(arguments, 0);
+                        "string" == typeof a[0] && window[dataLayerName].push({
+                            event: n + "." + i + ":" + a[0],
+                            parameters: [].slice.call(arguments, 1)
+                        })
+                    }
+                }(i[c])
+            }(window, "ppms", ["tm", "cm"]);
+        })(window, document, 'dataLayer', '28a0a095-db17-4f24-8d11-19c9de6721cc');
+    </script><noscript><iframe src="https://livechat.containers.piwik.pro/28a0a095-db17-4f24-8d11-19c9de6721cc/noscript.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></body>
+
+</html>

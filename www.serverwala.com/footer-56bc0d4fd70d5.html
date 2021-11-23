@@ -1,0 +1,94 @@
+<footer>
+    <div class="container">
+        <div class="footer-block">
+            <div class="footer-first-block">
+                <img src="image/footer-logo.png">
+                <p class="company-content">Serverwala Cloud Data Centers Pvt. Ltd stays tuned with the latest technology to achieve breakneck software speed, focus on core values, and ensure server sustainability. Further, serverwala is not just a different web host that proclaims
+                    its industry-leading services like cloud hosting, Dedicated Server, Colocation, and GPU while still providing you with reliable and exclusive plans.</p>
+                <!-- <p class="company-content">Duis sit amet maximus ligula. Maecenas scelerisque, ante id fermentum scelerisque, elit felis mollis.</p> -->
+            </div>
+            <div class="footer-second-block">
+                <p class="footer-head">About Us</p>
+                <p><a href="about-us">About us</a></p>
+                <p><a href="partner-network">Our Partner</a></p>
+                <p><a href="blog">Blog</a></p>
+                <p><a href="contact-us">Contact Us</a></p>
+                <p><a href="sla">SLA</a></p>
+                <p><a href="report-abuse">Legal/Abuse</a></p>
+                <p><a href="term-condition">Term & Condtion</a></p>
+                <p><a href="privacy-policy">Privacy Policy</a></p>
+                <p><a href="gdpr">GDPR</a></p>
+            </div>
+            <div class="footer-second-block footer-service-block">
+                <p class="footer-head">Services</p>
+                <p><a href="dedicated-servers">Dedicated</a></p>
+                <p><a href="vps-servers">VPS</a></p>
+                <p><a href="colocation-usa">Co-Location</a></p>
+                <p><a href="cluster-server">Cluster Server</a></p>
+                <p><a href="backup">Back-up</a></p>
+            </div>
+            <div class="footer-third-block">
+                <p class="footer-head">Discover Our Other Brands</p>
+                <a href="https://www.wisesolution.in/" target="_blank"><img src="image/s-wise-logo.png"></a>
+                <a href="#" class="experts-btn">Meet our experts</a>
+                <a href="#" class="contact-btn">Contact with us</a>
+            </div>
+            <div class="footer-last-block">
+                <p class="footer-head">Way to Contact With Us</p>
+                <div class="company-adress">
+                    <img src="image/company-location.png">
+                    <p class="company-content"><b>Server Wala Cloud Datacenters PVT. LTD.</b><br>Jaipur Electronic Market<br>Ridhi Sidhi Circle, Gopalpura Byepass<br>Jaipur(RJ), INDIA</p>
+                </div>
+                <div class="company-adress">
+                    <img src="image/company-mail.png">
+                    <p class="company-content" style="color:#fff;"><b>Technical Support:</b> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0460677061676c44776176726176736568652a676b69" style="color:#fff;">dctech@serverwala.com</a><br><b>Billing Inquiries:</b> <a href="/cdn-cgi/l/email-protection"
+                            class="__cf_email__" data-cfemail="c7a6a4a4a8b2a9b3b487b4a2b5b1a2b5b0a6aba6e9a4a8aa" style="color:#fff;">accounts@serverwala.com</a><br><b>Sales Inquiries:</b> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7704161b12043704120501120500161b165914181a"
+                            style="color:#fff;">sales@serverwala.com</a></p>
+                </div>
+                <div class="company-adress">
+                    <img src="image/company-phone.png">
+                    <p class="company-content"><b>Sales :</b> +91 9772222179<br><b>Support :</b> +91 8003399228<br><b>Accounts :</b> +91 7073977799</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-last-line">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="copy-block">
+                        <p class="copyright-content">Copyright 2021 <span style="color: #00C0F7;">Server Wala Cloud Datacenters Private Limited.</span> All Rights Reserved</p>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/ServerWala"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/Server_Wala"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/serverwala/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="payment-block"><img src="image/payment-img-new.png" class="payment-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $('#inquiry_form').submit(function(event) {
+        event.preventDefault()
+        if (grecaptcha.getResponse() == "") {
+            toastr.error('Please Select Valid Recaptcha', "Error");
+            return false;
+        }
+        $.post('https://serverwala.com/contactmail.php', $('#inquiry_form').serialize(), function(result) {
+            if (result) {
+                $('#inquiry_form').trigger('reset');
+                $('#inquiry_form')[0].reset();
+                grecaptcha.reset();
+                toastr.success('Thank you for your enquiry. We will get in touch with you shortly', "Success");
+            } else {
+                toastr.error('Somthing Went Wrong', "Error");
+            }
+        })
+    })
+</script>
